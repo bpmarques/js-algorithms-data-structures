@@ -1,0 +1,22 @@
+{
+  "name": "benchmark-live-coding-examples",
+  "version": "1.0.0",
+  "description": "Project created for live coding exercises training",
+  "main": "test/exercise-1.test.js",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.epam.com/bruno_marques/benchmark-live-coding-examples.git"
+  },
+  "author": "Bruno Marques <Bruno_Marques@epam.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^7.0.1"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
+}
